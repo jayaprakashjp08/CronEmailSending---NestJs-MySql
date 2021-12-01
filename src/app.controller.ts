@@ -17,7 +17,6 @@ export class AppController {
     const singaporeTime = new Date().toLocaleTimeString('en-US', {
       timeZone: 'Asia/Singapore',
     });
-    await this.appService.emailSending('Kolkata');
     const kolkataTime = new Date().toLocaleTimeString();
     const mailSendingTime = '6:00:00 am';
     if (chicagoTime === mailSendingTime) {
